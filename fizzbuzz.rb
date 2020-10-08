@@ -4,9 +4,8 @@
 def fizzbuzz(number)
   if number/5 == 1
     "Buzz"
-
-#  elsif
-  #  number/5 == 1
-  #  "Buzz"
+  elsif
+    number/3 == 1
+    "Fizz"
   end
 end
