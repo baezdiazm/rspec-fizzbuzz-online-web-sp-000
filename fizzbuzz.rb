@@ -2,10 +2,12 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
-  if number/3 == 1
+  if number/5 == 1
     "Fizz"
-  elsif
-    number/5 == 1
-    "Buzz"
+  else
+    nil
+#  elsif
+  #  number/5 == 1
+  #  "Buzz"
   end
 end
