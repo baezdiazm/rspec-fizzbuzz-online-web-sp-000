@@ -4,7 +4,7 @@ require 'pry'
 
 def fizzbuzz(number)
   if number % 3 == 0 && number % 5 == 0
-    "FizzBuzz"
+    return "FizzBuzz"
     binding.pry
   elsif
     number % 5 == 0
